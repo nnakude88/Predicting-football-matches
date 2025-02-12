@@ -2,11 +2,11 @@
 
 This repository contains a dataset used to predict the outcomes of football matches. The dataset includes various match statistics, which will be used to train a machine learning model for predicting the result of future football games. This project demonstrates an application of data science and machine learning techniques in the field of sports analytics.
 
-Dataset Overview
+# Dataset Overview
 
 The dataset is stored in a CSV file (Merged_dataset.csv) and includes several key statistics of football matches, with each row representing one match between two teams. The columns in the dataset provide detailed information about both teams' performance during the match, including goals scored, shots taken, fouls, and card details.
 
-Columns
+# Columns
 
 HomeTeam: Name of the home team in the match.
 
@@ -76,7 +76,7 @@ Away team conversion rate: 11.8%
 Goal
 The main goal of this dataset is to build a predictive model that can predict the outcome of football matches based on the provided statistics. The model will take the match data (e.g., number of goals, shots, fouls, etc.) as input and predict future possible number of goals, shots on target, fouls committed, cards received and the full-time result (i.e., whether the home team wins, the match ends in a draw, or the away team wins).
 
-Key objectives of this project:
+# Key objectives of this project:
 Data Preprocessing: Clean and preprocess the data to handle any missing values, outliers, or inconsistencies.
 Feature Engineering: Create additional features or transform existing features to improve the model’s performance.
 Exploratory Data Analysis (EDA): Analyze the relationships between various features and the target variable (FTR).
@@ -136,7 +136,7 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 6. Evaluate the Model
 Once the model is trained, you can evaluate its performance using various metrics. For example, you can use a confusion matrix to analyze the prediction results.
 
-Contributing
+# Contributing
 
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. Whether it's improving the model, suggesting new features, or fixing bugs, contributions are welcome!
 
