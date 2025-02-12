@@ -55,39 +55,50 @@ Total matches analyzed: 6080
 Goal Statistics:
 -----------------
 Average goals per match:
+
 Home teams: 1.54
+
 Away teams: 1.07
 
 Match Outcomes:
 -----------------
 Home wins: 2944 (48.4%)
+
 Away wins: 1520 (25.0%)
+
 Draws: 1616 (26.6%)
 
 Card Statistics:
 -----------------
 Average yellow cards per match: 3.14
+
 Average red cards per match: 0.17
 
 Shot Conversion Rates:
 -----------------
 Home team conversion rate: inf%
+
 Away team conversion rate: 11.8%
-Goal
+
+# Goal
+
 The main goal of this dataset is to build a predictive model that can predict the outcome of football matches based on the provided statistics. The model will take the match data (e.g., number of goals, shots, fouls, etc.) as input and predict future possible number of goals, shots on target, fouls committed, cards received and the full-time result (i.e., whether the home team wins, the match ends in a draw, or the away team wins).
 
 # Key objectives of this project:
+
 Data Preprocessing: Clean and preprocess the data to handle any missing values, outliers, or inconsistencies.
 Feature Engineering: Create additional features or transform existing features to improve the model’s performance.
 Exploratory Data Analysis (EDA): Analyze the relationships between various features and the target variable (FTR).
 Model Building: Train machine learning models (e.g., Logistic Regression, Random Forest, XGBoost) to predict match outcomes.
 Model Evaluation: Evaluate the performance of the models using appropriate metrics (e.g., accuracy, confusion matrix, precision, recall).
 Steps to Reproduce the Project
+
 1. Clone the Repository
 bash
 git clone https://github.com/yourusername/football-match-prediction.git
 cd football-match-prediction
-2. Install Dependencies
+
+3. Install Dependencies
 Install the necessary libraries using pip:
 
 bash
