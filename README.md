@@ -1,30 +1,53 @@
 # Predicting-football-matches
+
 This repository contains a dataset used to predict the outcomes of football matches. The dataset includes various match statistics, which will be used to train a machine learning model for predicting the result of future football games. This project demonstrates an application of data science and machine learning techniques in the field of sports analytics.
 
 Dataset Overview
+
 The dataset is stored in a CSV file (Merged_dataset.csv) and includes several key statistics of football matches, with each row representing one match between two teams. The columns in the dataset provide detailed information about both teams' performance during the match, including goals scored, shots taken, fouls, and card details.
 
 Columns
+
 HomeTeam: Name of the home team in the match.
+
 AwayTeam: Name of the away team in the match.
+
 FTHG: Full-time home goals (number of goals scored by the home team).
+
 FTAG: Full-time away goals (number of goals scored by the away team).
+
 FTR: Full-time result (the result of the match: H = Home win, D = Draw, A = Away win).
+
 HTHG: Half-time home goals (number of goals scored by the home team at half-time).
+
 HTAG: Half-time away goals (number of goals scored by the away team at half-time).
+
 HTR: Half-time result (the result of the match at half-time: H = Home win, D = Draw, A = Away win).
+
 HS: Home shots (total number of shots taken by the home team).
+
 AS: Away shots (total number of shots taken by the away team).
+
 HST: Home shots on target (number of shots on target by the home team).
+
 AST: Away shots on target (number of shots on target by the away team).
+
 HF: Home fouls (number of fouls committed by the home team).
+
 AF: Away fouls (number of fouls committed by the away team).
+
 HC: Home corners (number of corners won by the home team).
+
 AC: Away corners (number of corners won by the away team).
+
 HY: Home yellow cards (number of yellow cards issued to the home team).
+
 AY: Away yellow cards (number of yellow cards issued to the away team).
+
 HR: Home red cards (number of red cards issued to the home team).
+
 AR: Away red cards (number of red cards issued to the away team).
+
 Dataset Overview:
 -----------------
 Total matches analyzed: 6080
@@ -114,6 +137,7 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 Once the model is trained, you can evaluate its performance using various metrics. For example, you can use a confusion matrix to analyze the prediction results.
 
 Contributing
+
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. Whether it's improving the model, suggesting new features, or fixing bugs, contributions are welcome!
 
 
